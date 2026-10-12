@@ -1,0 +1,94 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SatNet Privacy Policy</title><style>body{font:16px/1.6 -apple-system,Segoe UI,Roboto,sans-serif;max-width:760px;margin:2rem auto;padding:0 1rem;color:#1b1f24}
+h1,h2{line-height:1.25}table{border-collapse:collapse}td,th{border:1px solid #ccd;padding:6px 10px}code{background:#f1f3f6;padding:1px 4px;border-radius:4px}</style></head><body>
+<h1>Privacy Policy</h1>
+<p><strong>SatNet: GPS Satellite Tracker</strong> (package <code>com.naiyados.satnet</code>)</p>
+<p><strong>Effective date:</strong> 2026-10-12
+<strong>Last updated:</strong> 2026-10-12</p>
+<h2>Summary</h2>
+<p>SatNet does not create accounts, show advertising, or send your location, camera image, or sensor
+data anywhere. The Google Play version has no analytics. The only network activity is downloading
+public satellite orbital data and, if you choose to subscribe, the purchase itself, which is handled
+by Google Play.</p>
+<h2>Information the app accesses</h2>
+<p>The app requests access to the following, and uses each only while you are using it.</p>
+<p><strong>Approximate and precise location.</strong> Used to calculate which satellites are above you and where to
+draw them on the radar and in AR Sky mode. Your coordinates are read from the device, used in memory
+to compute those positions, and discarded. They are never sent to a server, never shared, and never
+associated with any identifier. If you deny location access, the app falls back to a default
+position and remains usable.</p>
+<p><strong>Camera.</strong> Used only to show a live viewfinder behind the satellite overlay in AR Sky mode. The
+camera image is displayed on screen and nothing more: no photo or video is captured, recorded,
+saved, or transmitted. If you deny camera access, AR Sky mode shows a simulated sky background.</p>
+<p><strong>Device motion and light sensors.</strong> The compass, gyroscope, accelerometer and ambient light sensor
+are used to determine which way your device is pointing and to adjust the brightness of the
+starfield. These readings are used in real time and are not stored.</p>
+<h2>Network requests</h2>
+<p>The app downloads public satellite orbital data (TLE sets) from Celestrak (celestrak.org) to keep
+positions current. These requests contain no account, location, or device identifier. As with any
+internet request, Celestrak can see your device's IP address, under its own privacy practices. A
+recent snapshot of orbital data is bundled with the app, so it also works fully offline.</p>
+<h2>Subscriptions and purchases (Google Play version)</h2>
+<p>Some features are available with an optional subscription, <strong>Pro Monthly</strong> or <strong>Pro Annual</strong>.
+Purchases are processed entirely by Google Play. We do not see or store your payment details, name,
+or email address. The app asks Google Play whether you have an active subscription and keeps a
+single on-device flag ("Pro active: yes/no") so the features unlock quickly and offline. You can
+manage or cancel a subscription at any time in Google Play → Payments &amp; subscriptions →
+Subscriptions. See Google's privacy policy for how Google handles purchase data:
+https://policies.google.com/privacy</p>
+<h2>Information stored on your device</h2>
+<p>The app stores the following locally. It is not readable by us or by anyone else, and it is removed
+when you uninstall the app or clear its data.</p>
+<ul>
+<li>Your display preferences (theme, language, units, coordinate format, radar range, overlay toggles).</li>
+<li>The list of satellites you have pinned as favourites.</li>
+<li>A cache of map tiles and the last downloaded orbital data, for offline use.</li>
+<li>Whether the Pro subscription is active (Google Play version).</li>
+</ul>
+<h2>What the app does not do</h2>
+<ul>
+<li>It does not create accounts or ask you to sign in.</li>
+<li>It does not display advertising.</li>
+<li>It does not sell, rent, or share personal information with third parties.</li>
+<li>It does not transmit your location, camera image, or sensor data off your device.</li>
+</ul>
+<h2>RuStore version</h2>
+<p>The version distributed through RuStore also uses the MyTracker analytics SDK (VK) to collect
+anonymous usage statistics (such as which screens are opened) and device identifiers. It does not
+send your location or camera image. This applies only to the RuStore build.</p>
+<h2>Permissions</h2>
+<table>
+<thead>
+<tr>
+<th>Permission</th>
+<th>Why it is requested</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>ACCESS_FINE_LOCATION</code>, <code>ACCESS_COARSE_LOCATION</code></td>
+<td>Compute satellite positions relative to you</td>
+</tr>
+<tr>
+<td><code>CAMERA</code></td>
+<td>Live viewfinder in AR Sky mode</td>
+</tr>
+<tr>
+<td><code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code></td>
+<td>Download public satellite orbital data</td>
+</tr>
+<tr>
+<td><code>com.android.vending.BILLING</code></td>
+<td>Optional Pro subscription through Google Play</td>
+</tr>
+</tbody>
+</table>
+<p>You can revoke any of these at any time in Android Settings → Apps → SatNet → Permissions. The app
+continues to work with reduced functionality.</p>
+<h2>Children's privacy</h2>
+<p>The app collects no personal information from anyone, including children under 13.</p>
+<h2>Changes to this policy</h2>
+<p>If a future version changes how data is collected or used, this policy will be updated before that
+version is released, and the store listing's Data safety information will be updated to match.</p>
+<h2>Contact</h2>
+<p>Questions about this policy: open an issue at https://github.com/aram-sadoyan-2/satnet-legal/issues</p><hr><p><a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Use</a></p></body></html>
